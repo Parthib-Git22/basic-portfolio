@@ -137,7 +137,7 @@ const observer = new IntersectionObserver((entries) => {
 
             // add active class to current nav link
             const id = entry.target.getAttribute("id");
-            // console.log(id);
+            console.log(id);
             const activeLink = window.innerWidth <= 768 ? document.querySelector(`.menu .menu-links .menu-link[href="#${id}"]`) : document.querySelector(`.navbar .nav-links .nav-link[href="#${id}"]`);
             if(activeLink) activeLink.classList.add("active");
 
@@ -145,7 +145,7 @@ const observer = new IntersectionObserver((entries) => {
         }
     })
 }, {
-    threshold: .35,
+    threshold: .25,
 })
 
 sections.forEach((section) => {
