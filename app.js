@@ -28,7 +28,7 @@ handleResize(); // initial check
 
 let spanText = document.querySelector(".Home .left .description p span");
 
-const words = [`Frontend Development`, `Backend Development`, `Fullstack Development`];
+const words = [`Fullstack Development`, `Frontend Development`, `Backend Development`];
 
 let wordIdx = 0;
 let charIdx = 0;

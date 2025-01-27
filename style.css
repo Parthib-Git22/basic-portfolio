@@ -11,7 +11,7 @@ html{
 }
 :root{
     --primary-color : #261447;
-    --secondary-color : #FF3864;
+    --secondary-color :#FF3864;
     --box-shadow : 0 4px 15px rgba(0, 84, 255, 0.4);
 }
 .hide{
@@ -182,11 +182,12 @@ html{
     color: var(--secondary-color);
     text-transform: uppercase;
     letter-spacing: .15rem;
+    padding-top: .25rem;
  }
- .Home .left h1{
-    font-size: 3.5rem;
+ .Home .left .intro{
+    font-size: 3.75rem;
  }
- .Home .left h1 span{
+ .Home .left .intro span{
     color: var(--secondary-color);
  }
  .Home .left .description{
@@ -196,7 +197,6 @@ html{
     margin-bottom: .5rem;
     font-size: 1.8rem;
     letter-spacing: .125rem;
-    text-transform: capitalize;
  }
  .Home .left .description p .text{
     color: var(--secondary-color);
@@ -351,12 +351,9 @@ html{
     .Home .left .description p{
         font-size: 1.5rem;
     }
-    /* .Home .left .social-handles a{
-        text-decoration: none;
-        margin: 0 .25rem;
-        font-size: 1.5rem;
-     } */
-
+    .Home .left .intro{
+        font-size: 3.2rem;
+    }
 }
 @media (max-height: 450px){
     .Home{
@@ -1025,10 +1022,11 @@ form .btn:hover{
 
 /* Footer Section */
 footer p{
-    color: gold;
+    color: rgba(255,255,255,.8);
     background-color: var(--primary-color);
     text-align: center;
     padding-bottom: .25rem;
+    font-size: .75rem;
 }
 
 /* Intersection observer */
