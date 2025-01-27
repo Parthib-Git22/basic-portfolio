@@ -182,7 +182,7 @@ html{
     color: var(--secondary-color);
     text-transform: uppercase;
     letter-spacing: .15rem;
-    padding-top: .25rem;
+    padding-top: .35rem;
  }
  .Home .left .intro{
     font-size: 3.75rem;
@@ -352,7 +352,7 @@ html{
         font-size: 1.5rem;
     }
     .Home .left .intro{
-        font-size: 3.2rem;
+        font-size: 3rem;
     }
 }
 @media (max-height: 450px){
