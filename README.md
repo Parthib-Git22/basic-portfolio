@@ -1,0 +1,1 @@
+# A clean and responsive portfolio website built using HTML, CSS, and JavaScript. This website showcases my skills, projects, and contact details, featuring smooth navigation, interactive elements, and a user-friendly design to highlight my journey as a web developer.
